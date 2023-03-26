@@ -1,0 +1,78 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 480px;
+    }
+
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        max-width: 450px;
+    }
+
+    .hero {
+        max-width: 480px;
+        padding: 118px 0;
+    }
+    .hero-title {
+        font-size: 26px;
+        line-height: 1.62;
+    }
+
+    .advantages {
+        display: block;
+    }
+
+    .advantages-title {
+        text-align: center;
+    }
+
+    .advantages-item,
+    .advantages-bg-icon {
+        width: 450px;
+    }
+
+    .advantages-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .team-section {
+        display: block;
+    }
+
+    .team-list {
+        display: block;
+        width: 100%;
+    }
+
+    .team-section-title {
+        margin-bottom: 30px;
+    }
+
+    .team-about {
+        padding-bottom: 24px;
+    }
+
+    .clients-list {
+        width: 450px;
+        flex-wrap: wrap;
+    }
+
+    .clients-list> .clients-box {
+        margin-right: 30px;
+        margin-bottom: 30px;
+        flex-basis: calc(100% / 2 - 30px);
+    }
+
+    .clients-box:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+    .clients-box:nth-last-child(-n + 2) {
+        margin-bottom: 0px;
+    }
+
+
+    .clients-item {
+        width: 210px;
+    }
+}
