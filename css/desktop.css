@@ -33,14 +33,21 @@
         margin-left: 30px;
     }
 
+    .team-section {
+        display: flex;
+    }
+
     .team-section-title {
         margin-bottom: 50px;
     }
 
     .team-list {
-    display: flex;
-    width: calc(100% - 90px) / 4;
-}
+        display: flex;
+    }
+
+    .team-card {
+        width: calc((100% - 90px) / 4);
+    }
 
     .team-list .team-card+.team-card {
         margin-left: 30px;
@@ -55,18 +62,45 @@
     }
 
     .clients-list {
-        width: 1179px;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .clients-box {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .clients-list>.clients-box {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
    
-    .clients-list .clients-box + .clients-box {
-        margin-left: 30px;
+    .clients-box:not(:last-child) {
+        margin-right: 30px;
     }
 
-    .clients-item {
-        width: 170px;
+    .footer-container {
+        display: flex;
+        align-items: baseline;
     }
 
-    /* .clients-item {
-        width: 170px;
-    } */
+    .footer-logo {
+        font-size: 26px;
+        line-height: 1.19;
+    }
+
+    .footer-social-networks-list {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .appeal {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
 }
