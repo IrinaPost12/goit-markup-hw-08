@@ -488,15 +488,10 @@ nav {
 
 .footer-section {
   background: var(--hero-background-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
   align-items: baseline;
 }
-
-/* .footer-container {
-  display: flex;
-  align-items: baseline;
-} */
 
 .footer-logo-container {
   flex-grow: 1;
@@ -600,17 +595,6 @@ nav {
 .footer-social-networks-link:focus .footer-social-networks-icon {
   fill: var(--primary-white-color);
 }
-
-/* .appeal {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-} */
-
-/* .appeal-input-button {
-  display: flex;
-  align-items: baseline;
-} */
 
 .appeal-input {
   width: 358px;

@@ -5,6 +5,7 @@
 
     .section {
         max-width: 738px;
+        /* padding-top: 0px; */
     }
 
     .hero {
@@ -61,21 +62,18 @@
     }
 
     .footer-container {
-        width: 565px;
+        width: 645px;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
+        justify-content: center;
     }
 
     .footer-logo-container {
         margin-left: 0px;
         margin-bottom: 60px;
+        margin-right: 165px;
     }
-
-    /* .appeal-input {
-        margin-left: 15px;
-        margin-right: 15px;
-    } */
 }
 
 @media screen and (max-width: 1199px) {

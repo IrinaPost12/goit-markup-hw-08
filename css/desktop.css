@@ -4,8 +4,8 @@
     }
 
     .section {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        /* padding-top: 94px;
+        padding-bottom: 94px; */
         max-width: 1600px;
     }
 
@@ -83,13 +83,44 @@
     }
 
     .footer-container {
+        width: 565px;
         display: flex;
         align-items: baseline;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .footer-logo-container {
+        /* width: 231px; */
+        flex-grow: 1;
+        margin-right: 70px;
+        flex-direction: row;
     }
 
     .footer-logo {
+        display: flex;
+        justify-content: flex-start;
         font-size: 26px;
         line-height: 1.19;
+        color: var(--primary-white-color);
+        font-family: Raleway;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+    }
+
+    .footer {
+        /* width: 231px; */
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .footer-item {
+        justify-content: flex-start;
+    }
+
+    .footer-networks-section {
+        margin-left: 70px;
+        margin-right: 93px;
     }
 
     .footer-social-networks-list {
@@ -100,7 +131,27 @@
 
     .appeal {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        /* flex-direction: column; */
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .appeal-input {
+        margin-right: 12px;
+    }
+
+    .appeal-title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .appeal-input-button {
+        display: flex;
+        /* align-items: baseline; */
+        flex-direction: row;
+    }
+
+    .submit-button {
+        margin-top: 0px;
     }
 }
