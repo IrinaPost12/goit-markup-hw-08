@@ -64,6 +64,8 @@ p {
   max-width: 1600px; */
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 nav {
@@ -200,6 +202,7 @@ nav {
 .hero {
   /* padding: 200px 0; */
   /* max-width: 1600px; */
+  padding: 118px 0;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -354,9 +357,17 @@ nav {
   background: var(--grey-background-color);
 }
 
-/* .team-section-title {
-  margin-bottom: 50px;
-} */
+.team-list .team-card+.team-card {
+  margin-bottom: 30px;
+}
+
+.team-card:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.team-section-title {
+  margin-bottom: 30px;
+}
 
 /* .team-list {
   display: flex;
@@ -455,11 +466,27 @@ nav {
 .clients-list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .clients-box {
   /* width: 170px; */
   height: 92px;
+}
+
+.clients-list>.clients-box {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  /* flex-basis: calc(100% / 2 - 30px); */
+  width: calc((100% - 30px) / 2);
+}
+
+.clients-box:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.clients-box:nth-last-child(-n + 2) {
+  margin-bottom: 0px;
 }
 
 .clients-item {
@@ -495,9 +522,15 @@ nav {
 
 .footer-logo-container {
   flex-grow: 1;
+  width: 232px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--primary-white-color);
   font-family: Raleway;
   font-weight: 700;
@@ -507,6 +540,9 @@ nav {
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 28px;
 }
 
@@ -516,8 +552,13 @@ nav {
 
 .footer-networks-section {
   width: 206px;
-  /* margin-left: 70px;
-  margin-right: 93px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-social-networks-list {
@@ -596,8 +637,14 @@ nav {
   fill: var(--primary-white-color);
 }
 
+.appeal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .appeal-input {
-  width: 358px;
+  width: 300px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -606,6 +653,12 @@ nav {
   background: var(--hero-background-color);
   transition: border-color, var(--primary-white-color),
     var(--animation-duration) var(--timing-function);
+}
+
+.appeal-input-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .appeal-input:hover,
@@ -647,6 +700,7 @@ nav {
   letter-spacing: 0.06 em;
   color: var(--primary-white-color);
   cursor: pointer;
+  margin-top: 20px;
   /* padding-left: 29px;
   padding-top: 10px;
   padding-bottom: 10px; */

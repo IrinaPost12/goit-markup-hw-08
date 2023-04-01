@@ -83,7 +83,7 @@
     }
 
     .footer-container {
-        width: 565px;
+        width: 1200px;
         display: flex;
         align-items: baseline;
         flex-direction: row;
@@ -109,7 +109,6 @@
     }
 
     .footer {
-        /* width: 231px; */
         display: flex;
         align-items: flex-start;
     }
@@ -119,7 +118,6 @@
     }
 
     .footer-networks-section {
-        margin-left: 70px;
         margin-right: 93px;
     }
 
@@ -131,7 +129,6 @@
 
     .appeal {
         display: flex;
-        /* flex-direction: column; */
         justify-content: flex-start;
         align-items: flex-start;
     }
