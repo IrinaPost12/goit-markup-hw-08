@@ -57,6 +57,13 @@
         margin-left: 50px;
     }
 
+    .address-nav {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        align-items: flex-start;
+    }
+
     .address-nav-item:not(:last-child) {
         margin-bottom: 10px;
     }
