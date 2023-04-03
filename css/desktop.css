@@ -9,6 +9,20 @@
         max-width: 1600px;
     }
 
+    .overlay {
+        background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
+            url(../images/hero-bg-des-1x.jpg);
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .overlay {
+            background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
+                url(../images/hero-bg-des-2x.jpg);
+        }
+    }
+
     /* Логотип */
     .logo {
         padding-top: 24px;
@@ -92,10 +106,11 @@
         border-radius: 2px;
     } */
 
-        /* .address-nav {
+        .address-nav {
         display: flex;
+        flex-direction: row;
         margin-left: auto;
-    } */
+    }
 
         /* .site-nav-link,
     .address-nav-link {

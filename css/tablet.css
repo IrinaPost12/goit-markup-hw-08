@@ -8,6 +8,20 @@
         /* padding-top: 0px; */
     }
 
+    .overlay {
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
+        url(../images/hero-bg-tab-1x.jpg);
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .overlay {
+            background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
+                url(../images/hero-bg-tab-2x.jpg);
+        }
+    }
+
     /* Логотип */
     .logo {
         padding-top: 24px;
@@ -68,9 +82,9 @@
         margin-bottom: 10px;
     }
 
-    .address-nav .address-nav-item+.address-nav-item {
-        /* margin-left: 50px; */
-    }
+    /* .address-nav .address-nav-item+.address-nav-item {
+        margin-left: 50px;
+    } */
 
     .address-nav-link {
         display: flex;
