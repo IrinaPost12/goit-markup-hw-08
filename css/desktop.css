@@ -20,6 +20,12 @@
     .logo {
         padding-top: 24px;
         padding-bottom: 25px;
+        font-size: 26px;
+        line-height: 1.19;
+    }
+    .address-nav-link {
+        font-size: 14px;
+        line-height: 1.14;
     }
     .address-nav {
         flex-direction: row;
@@ -53,6 +59,8 @@
         display: flex;
     }
     .team-section-title {
+        font-size: 36px;
+        line-height: 1.17;
         margin-bottom: 50px;
     }
     .team-card {
