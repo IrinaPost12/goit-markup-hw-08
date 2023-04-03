@@ -24,8 +24,8 @@
 
     /* Логотип */
     .logo {
-        padding-top: 24px;
-        padding-bottom: 25px;
+        padding-top: 26px;
+        padding-bottom: 26px;
         margin-right: 93px;
         font-family: Raleway, sans-serif;
         font-weight: 700;
@@ -63,19 +63,19 @@
         align-items: center;
     }
 
-    /* .main-nav {
-        align-items: flex-end;
-    } */
-
     .site-nav .site-nav-item+.site-nav-item {
         margin-left: 50px;
     }
 
     .address-nav {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         margin-left: auto;
         align-items: flex-start;
+    }
+
+    .address-nav-item {
+        justify-content: flex-start;
     }
 
     .address-nav-item:not(:last-child) {
@@ -133,13 +133,6 @@
         background-color: var(--accent-color);
         border-radius: 2px;
     }
-
-    .address-nav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: auto;
-}
 
     .site-nav-link {
         padding-top: 32px;
