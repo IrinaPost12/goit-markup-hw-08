@@ -23,6 +23,9 @@
         font-size: 26px;
         line-height: 1.19;
     }
+    .header {
+        border-bottom: 1px solid #ececec;
+    }
     .address-nav-link {
         font-size: 14px;
         line-height: 1.14;
